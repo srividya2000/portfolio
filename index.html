@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="'X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="header">
+           <div class="container">
+            <nav>
+                <img src="images/srividya-logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Certifications">Certifications</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1> Hi, Iam <span>Srividya</span> <br>COMPUTER TECHNOLOGY GRADUATE</h1>
+            </div>
+           </div> 
+        </div>
+        <!---------About---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.jpeg"width="700" height="600">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">ABOUT ME</h1>
+                        <p>As a Data Engineer, I specialize in constructing the foundation for data-driven innovations. 
+                            I architect, optimize, and manage data pipelines, ensuring seamless flow from source to storage and also 
+                            a machine learning intern with a passion for harnessing data's potential. From designing powerful algorithms to crafting predictive models.</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links"onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills" >
+                                <ul>
+                                    <li><span>PROGRAMMING LANGUAGES</span><br>Java, Python, Spark, Kafka, OOP's.</li>
+                                    <li><span>WEB TECHNOLOGIES</span><br>HTML, CSS, Javascript, ReactJS.</li>
+                                    <li><span>DATABASE</span><br>MSSQL, MongoDB.</li>
+                                    <li><span>TOOLS</span><br>GIT, VS, MS Excel, AWS.</li>
+                                    <li><span>TECHNOLOGIES</span><br>AI, Machine learning, Deep learning, LLM</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>JAN-2021-DEC-2021</span><br>Data engineer at 
+                                    Chemical Abstract services</li>
+                                    <li><span>SEPT-2020-DEC-2020</span><br>Machine Learning intern at 
+                                    Smartbridge Educational Services</li>
+                                    </ul>
+                            </div>
+                            <div class="tab-contents" id="education" >
+                                <ul>
+                                    <li><span>JAN-2022-MAY-2023</span><br>Masters in Computer Technology at EASTERN ILLINOIS UNIVERSITY</li>
+                                    <li><span>JUNE-2017-AUG-2021</span><br>Btech in COMPUTER SCIENCE AND ENGINEERING at VAAGDEVI ENGINEERING COLLEGE</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------Certifications----------------->
+        <div id="Certifications">
+            <div class="container">
+                <h1 class="sub-title">CERTIFICATIONS</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i> 
+                        <h2>MACHINE LEARNING</h2>
+                        <p>Certified as Machine Learning intern.</p>
+                            <a href="images/Picture1.jpg">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-aws"></i>
+                        <h2>AWS</h2>
+                        <p>Certified as AWS Associate Developer.</p>
+                            <a href="https://www.credly.com/badges/25d3b00f-9028-4928-b6c0-83ff5e80a4d4/public_url">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>ARTIFICIAL INTELLIGENCE</h2>
+                        <p>Certified for Generative AI with LLM.</p>
+                            <a href="https://www.cloudskillsboost.google/public_profiles/744d186d-0e15-4b19-95be-f940ef6aabc6">Learn more</a></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------portfolio----------->
+        <div id="Projects">
+            <div class="container">
+                <h1 class="sub-title">MY WORKS</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work12.jpg" height="570">
+                        <div class="layer">
+                            <h3> PLANT SEEDLING CLASSIFICATION using CONVOLUTION NEURAL NETWORKS</h3>
+                            <p>Developed and trained a deep learning predictive model to classify plant seedlings datasets with an accuracy rate of 95%, 
+                                resulting in a more efficient and accurate classification process for agricultural industries  </p>
+                            <a href="images/plant_seedling.png"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/wrk2.jpg" height="570">
+                        <div class="layer">
+                            <h3> SUSPICIOUS ACTIVITY DETECTION USING OPEN CV.</h3>
+                            <p>Developed and trained Convolutional Neural Network models to detect suspicious activity within video feeds, achieving an 
+                                accuracy rate of 95%, reducing manual review time by 70%. Extensively used Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, SciPy. </p>
+                            <a href="images/suspicious_activity.png"><i class="fa-solid fa-link"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/portfolio.jpg" height="570">
+                        <div class="layer">
+                            <h3> PERSONAL PORTFOLIO.</h3>
+                            <p>Designed a curated collection of my diverse creative works, showcasing a fusion of design and innovation in a visually captivating personal portfolio. </p>
+                            <a href="#"><i class="fa-solid fa-link"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/web.jpg" height="570">
+                        <div class="layer">
+                            <h3> PROFILE CARD USING REACTJS.</h3>
+                            <p>Designed a profile card that highlights my interests and hobbies.</p>
+                            <a href="https://profileecard.netlify.app/"><i class="fa-solid fa-link"></i> </a>
+                </div>
+            </div>
+        </div>
+        <!------------contact Information-------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                    <h1 class="sub-title">CONTACT INFORMATION</h1>
+                    <p><i class="fa-regular fa-envelope"></i>vemulasrividya09@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+1 (217)-218-1571</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/srividya09"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/resume.pdf"><button download class="button button1">RESUME</button></a>
+                </div>
+                <div class="contact-right">
+                    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="HORIZONTAL" data-vanity="srividya09" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/srividya09?trk=profile-badge"></a></div>
+              
+              
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
